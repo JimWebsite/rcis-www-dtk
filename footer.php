@@ -38,7 +38,7 @@ if (isset($_SESSION['qode_footer'])) $qode_footer = $_SESSION['qode_footer'];
 							<?php endif; ?>
 							<?php dynamic_sidebar( 'footer_left' ); ?>
 						</div>
-						<div class="right">
+						<div class="middle">							<?php dynamic_sidebar( 'footer_middle' ); ?>						</div>						<div class="right">
 							<?php dynamic_sidebar( 'footer_right' ); ?>
 						</div>
 					</div>
@@ -135,6 +135,6 @@ if($qode_options['show_toolbar'] == "yes"){
 		}
 	?>
 	</script>
-	<?php wp_footer(); ?>
+	<?php wp_footer(); ?><p style="text-align: center;"><span style="color: #ffffff;">© 2013 dtkResources All Rights Reserved.     Site Design by Nancy Hartner-Donnelly | Site Development &amp; Maintenance by <span style="color: #ffffff;"><a href="http://www.rogographicsinc.com" target="_blank"><span style="color: #ffffff;">Rogo Graphics Inc.</span></a></span></span></p>
 </body>
 </html>

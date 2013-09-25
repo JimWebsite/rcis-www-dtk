@@ -37,13 +37,13 @@
 							<?php	} ?>
 							
 							<h2><?php //the_title(); ?></h2>
-							<div class="date"><?php _e('Posted by','qode'); ?> <?php the_author(); ?> <?php _e('in','qode'); ?> <?php the_category(', '); ?></div>
+						<!--	<div class="date"><?php _e('Posted by','qode'); ?> <?php the_author(); ?> <?php _e('in','qode'); ?> <?php the_category(', '); ?></div> no meta JAA -->
 							<div class="text">
 								<div class="text_inner">
 									
 									<?php if ( has_post_thumbnail()) : ?>
 										<div class="image">		
-											<?php the_post_thumbnail('medium'); ?>
+											<?php the_post_thumbnail('blog-type-1-small'); ?>
 										</div>
 									<?php endif; ?>
 									<?php the_content(''); ?>
@@ -52,7 +52,7 @@
 							</div>
 							<div class="info">
 								<span class="left"><?php the_time('d M Y'); ?></span>
-								<!-- <span class="right"><a href="<?php comments_link(); ?>"><?php comments_number( 'no comments', '1 comment', '% comments' ); ?></a></span>-->
+								<!-- <span class="right"><a href="<?php comments_link(); ?>"><?php comments_number( 'no comments', '1 comment', '% comments' ); ?></a></span> JAA Single-->
 							</div>
 						</article>
 					</div>

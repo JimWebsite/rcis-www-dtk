@@ -1,6 +1,6 @@
 <?php 
 /*
-Template Name: Blog Template 1
+Template Name: Blog Template 1redux
 */ 
 ?>
 <?php get_header(); ?>
@@ -43,20 +43,17 @@ $sidebar = get_post_meta($id, "qode_show-sidebar", true);
 						<div class="image">
 							<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
 							
-									<?php the_post_thumbnail('blog-type-1-big'); ?>
+									<?php the_post_thumbnail('blog-type-1-small'); ?>
 							</a>
 						</div>
 						<?php } } ?>
 					<div class="text">
 						<div class="text_inner">
 							
-							<h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+							<p><div class="peach-text"><?php the_time('M Y'); ?></div></p>							<h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 							<p><?php the_excerpt(); ?></p>
 							<a href="<?php the_permalink(); ?>" class="more" title="<?php the_title_attribute(); ?>"><?php _e('READ MORE', 'qode'); ?></a>
-							<div class="info">
-								<span class="left"><?php the_time('d M Y'); ?> <?php _e('Posted by','qode'); ?> <?php the_author(); ?> <?php _e('in','qode'); ?> <?php the_category(', '); ?></span>
-								<!--<span class="right"><a href="<?php comments_link(); ?>"><?php comments_number( 'no comments', 'one comment', '% comments' ); ?></a></span>-->
-							</div>
+							
 						</div>
 					</div>
 				</article>
@@ -98,12 +95,12 @@ $sidebar = get_post_meta($id, "qode_show-sidebar", true);
 									<div class="text">
 										<div class="text_inner">
 											
-											<h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+											<p>Jaa lower</p>											<h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?>Jaa lower</a></h2>
 											<p><?php the_excerpt(); ?></p>
 											<a href="<?php the_permalink(); ?>" class="more" title="<?php the_title_attribute(); ?>"><?php _e('READ MORE', 'qode'); ?></a>
 											<div class="info">
 												<span class="left"><?php the_time('d M Y'); ?> <?php _e('Posted by','qode'); ?> <?php the_author(); ?> <?php _e('in','qode'); ?> <?php the_category(', '); ?></span>
-												<!--<span class="right"><a href="<?php comments_link(); ?>"><?php comments_number( 'no comments', 'one comment', '% comments' ); ?></a></span>-->
+												<!--<span class="right"><a href="<?php comments_link(); ?>"><?php comments_number( 'no comments', 'one comment', '% comments' ); ?></a></span>blog 1 # 2-->
 											</div>
 										</div>
 									</div>
@@ -155,12 +152,12 @@ $sidebar = get_post_meta($id, "qode_show-sidebar", true);
 									<div class="text">
 										<div class="text_inner">
 											
-											<h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+											<p>JAA #3 this might work</p>											<h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?>JAA 3</a></h2>
 											<p><?php the_excerpt(); ?></p>
 											<a href="<?php the_permalink(); ?>" class="more" title="<?php the_title_attribute(); ?>"><?php _e('READ MORE', 'qode'); ?></a>
 											<div class="info">
 												<span class="left"><?php the_time('d M Y'); ?> <?php _e('Posted by','qode'); ?> <?php the_author(); ?> <?php _e('in','qode'); ?> <?php the_category(', '); ?></span>
-												<!--<span class="right"><a href="<?php comments_link(); ?>"><?php comments_number( 'no comments', 'one comment', '% comments' ); ?></a></span>-->
+												<!--<span class="right"><a href="<?php comments_link(); ?>"><?php comments_number( 'no comments', 'one comment', '% comments' ); ?></a></span>blog1 #3-->
 											</div>
 										</div>
 									</div>
