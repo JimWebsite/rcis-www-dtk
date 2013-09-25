@@ -1,0 +1,107 @@
+ul#recentcomments{
+	display: inline-block;
+	width: 100%;
+}
+
+#recentcomments li,
+#recentcomments li a,
+.widget_categories li a,
+.widget_recent_entries li a,
+.widget_archive a,
+.widget_rss a,
+#searchform label,
+.widget_pages a,
+.widget_nav_menu a,
+.widget_meta a{
+	color: #515151;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 0 0 0 0;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 0 10px;
+}
+#recentcomments li a:hover{
+	text-decoration: underline;
+}
+
+.widget{
+	padding: 0px 0px 15px 0px;
+}
+.widget * {
+	font-style: italic !important;
+}
+.widget a:hover{
+	text-decoration: underline;
+}
+
+.widget_rss h5 a{
+	display: inline-block;
+	width: auto;
+}
+
+.widget_calendar table{
+	width: 100%;
+	text-align: left;
+}
+
+.widget_calendar table td{
+	padding: 2px 0px;
+}
+
+.widget_calendar caption{
+	position: relative;
+	font-family: inherit;
+	font-size: 14px;
+	margin: 0px 0px 10px 0px;
+}
+
+#searchform{
+	display: inline-block;
+	width: 100%;
+}
+
+#searchform label{
+	display: none;
+}
+
+#searchform input[type='text']{
+	width: 58%;
+	float: left;
+	margin: 0px 2% 0px 0px;
+}
+
+#searchform input[type='submit']{
+	height: 42px;
+	width: 30%;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+}
+
+.widget_tag_cloud a{
+	color: #ffffff;
+	background-color: #252525;
+	font-family: inherit;
+	font-size: 14px !important;
+	padding: 3px 5px;
+	text-decoration: none;
+	margin: 0px 3px 5px 3px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.widget_tag_cloud a:hover{
+	text-decoration: none;
+	background-color: #acacac;
+}
+
+select,
+select option {
+	width: 100%;
+}
+
+.widget_rss li{
+	padding: 0px 0px 20px 0px;
+	
+}

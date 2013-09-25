@@ -1,0 +1,85 @@
+/*
+Theme Name: Minimum
+Theme URI: http://demo.qodeinteractive.com/minimum/
+Description: Minimum Theme
+Tags: ajax, animation, architecture, clean, corporate, creative, elegant, grey, interactive, minimal, modern, parallax, photography, portfolio, professional
+Author: Qode Interactive
+Author URI: http://www.qodeinteractive.com/
+Version: 1.1.3
+License: GNU General Public License
+License URI: licence/GPL.txt
+
+*/
+
+/*
+CSS changes can be made in files in the /css/ folder. This is a placeholder file required by WordPress, so do not delete it.
+
+
+Changelog
+
+1.1.3
+- List of Google fonts updated
+- Added Portfolio Style 4 (should be used for parallax) to Portoflio single view field
+- Added child theme support
+- Placing Dropcaps shortcode from toolbar bug fixed
+- Google fonts field in Qode Global Options bug fixed
+- Removed obsolete content_line_remover div
+
+1.1.2
+- Comment posting message fix
+- Link style - font decoration in qode options fix
+- H2 color change on blog templates fix
+- Header logo top margin on last 2 sizes of responsive layout
+- Edit button in wordpress toolbar (when viewing site) when ajax is enabled fix
+
+1.1.1
+- Contact form fix
+- Header fix on last two sizes
+- Demo content updated with Revolution slider example
+
+1.1
+- Added Revolution Slider WP plugin with full width support
+- Added option to parallax shortcode for on/off "back to top" arrow
+- Post comments via ajax
+- Added "List of internal URLs loaded without AJAX" field to Qode option to prevent AJAX on some links (for example forum)
+- Fixed counters for small sliders
+- 404 page layout Fixed
+- Translation file updated
+- Documentation updated to reflect all latest changes
+
+1.0.8
+- Fixed Video on Portfolio page bug
+- Fixed Portfolio Filter css
+- Tranlsation file updated
+- Fixed Bug when installing theme on WordPress with existing content
+- Added Shortcode for displaying Latest Blog posts with 2 different layout options (Blog Layout and Portfolio Layout) 
+- Fixed Tabs on tablets
+- Improved Portfolio List Shortcode to allow displaying items of chosen category (add category slug to category field of shortcodes)
+(This improvement allows creation of multiple portfolio list pages)
+
+1.0.7
+- Added video support to portfolios (you can add either image or video, image has priority over video)
+- Portfolio shortcode updated to allow filtering by sub-categories (children of top categories)
+- Fixed issue found in WordPress toolbar (when viewing site) when Ajax is enabled
+
+1.0.6
+- Added pattern image (examples on toolbar), you can add transparent pattern image to combine with background color
+- Turn on/off responsiveness
+- Turn off ajax for certain pages (important for some plugins to work)
+- Translation problem fixed
+- Contact form localized
+
+1.0.5
+- Added Back, Next & Previous buttons to project (portfolio item) page
+- Parallax fixed for last 2 responsive sizes
+- Cancel Reply button is stylized now
+- jQuery inclusion moved from footer to header
+- Layout of sliders are fixed for last 2 responsive sizes: text is shown, buttons are moved to bottom right corner
+- Re-order of slides, Parallax pages, Portfolio images & Portfolio Option items is implemented
+- Header Right widget is implemnted, needed to add social icons to the header
+- Back to Top button is Added for Parallax pages
+
+1.0.1 & 1.0.2 & 1.0.3 & 1.0.4
+- ThemeForest approval issues
+
+*/
